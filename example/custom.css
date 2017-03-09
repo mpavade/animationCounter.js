@@ -1,0 +1,26 @@
+html, body{ font-family: 'Montserrat', sans-serif; color: #7A7A7A; font-size:20px; text-align:center; }
+
+.title-plugin{ font-family: 'Pacifico', cursive; font-size: 80px; color: #019F9A}
+
+.block-wrapper{ margin-right: auto; margin-left: auto; width: 824px; }
+  .block{ color:#019F9A; float: left; border: 3px solid #019F9A; padding-top: 40px; width: 180px; height: 160px; margin: 10px}
+    .block p { margin: 0; }
+      .block p i{ font-size: 40px; color: #019F9A; }
+  .counter-wrapper{ font-weight:700; margin:5px 0px 5px 0px; font-size: 25px; }
+  .text-block{ font-size: 17px; }
+
+  /* The ribbons */
+  .corner-ribbon{ font-size: 12px; width: 250px; background: #e43; position: absolute; top: 25px; left: -50px; text-align: center; line-height: 50px; letter-spacing: 1px; color: #f0f0f0; transform: rotate(-45deg); -webkit-transform: rotate(-45deg); }
+  .corner-ribbon.sticky{ position: fixed; }
+  .corner-ribbon.shadow{ box-shadow: 0 0 3px rgba(0,0,0,.3); }
+  .corner-ribbon.top-right{ top: 40px; right: -60px; left: auto; transform: rotate(45deg); -webkit-transform: rotate(45deg); }
+  .corner-ribbon.blue{ background-color: #019F9A; }
+
+  .corner-ribbon a{ color:#FFFFFF; font-weight: bold; }
+
+  /* icon */
+  .lnr-wrapper{ margin-top: 20px }
+  .lnr-heart, .lnr-code, .lnr-bicycle, .lnr-history { color: #019F9A; font-size: 45px; }
+
+footer{ position: absolute; bottom:10px; text-align: center; font-size: 14px; }
+footer a{ color:#7A7A7A; text-decoration: none; font-weight: bold }

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="animationCounter.js" content="animationCounter.js is a plugin that animate a counter from one value to another value or from a number to an infinite value">
+    <title>animationCounter.js</title>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+  </head>
+  <body>
+      <div class="main">
+          <div class="intro">
+            <h1 class="title-plugin">animationCounter.js</h1>
+          </div>
+          <div class="corner-ribbon top-right sticky blue"><a href="https://github.com/mpavade/animationCounter.js" target="_blank">view project on github</a></div>
+          <div class="block-wrapper">
+              <div class="block">
+                  <p><span class="lnr lnr-heart"></span></p>
+                  <p class="counter-wrapper"><span class="fb"></span></p>
+                  <p class="text-block">like</p>
+              </div>
+              <div class="block">
+                  <p><span class="lnr lnr-code"></span></p>
+                  <p class="counter-wrapper"><span class="code"></span></p>
+                  <p class="text-block">code</p>
+              </div>
+              <div class="block">
+                  <p><span class="lnr lnr-bicycle"></span></p>
+                  <p class="counter-wrapper"><span class="bike"></span></p>
+                  <p class="text-block">bicycle</p>
+              </div>
+              <div class="block">
+                  <p><span class="lnr lnr-history"></span></p>
+                  <p class="counter-wrapper"><span class="coffee"></span></p>
+                  <p class="text-block">coffee</p>
+              </div>
+            </div>
+            <footer>
+              <p>Copyright (c) 2017 <a href="http://www.pixel-renaissance.com">Micheline Pavadé</a></p>
+            </footer>
+      </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+    <script src="../animationCounter.js" charset="utf-8"></script>
+    <script type="text/javascript">
+    $('#counter-block').ready(function(){
+        $('.fb').animationCounter({
+          start: 0,
+          step: 1,
+          delay:100
+        });
+        $('.bike').animationCounter({
+          start: 245677,
+          step: 100,
+          delay:2000,
+          txt: ' km'
+        });
+        $('.code').animationCounter({
+          start: 0,
+          end: 570,
+          step: 4,
+          delay: 1000
+        });
+        $('.coffee').animationCounter({
+          start: 490,
+          end: 1560,
+          step: 20,
+          delay: 900,
+          txt: ' cl'
+        });
+    });
+    </script>
+  </body>
+</html>
