@@ -1,5 +1,6 @@
 # animationCounter.js
-animationCounter.js is a jQuery plugin that animates a number from a value to an other or to a value to an infinite number
+animationCounter.js is a jQuery plugin that animates a number from a value to an other or to a value to an infinite number <br>
+Demo: https://mpavade.github.io/animationCounter.js/demo/
 
 # Installation & Use
 1. Download the latest version from [GitHub](https://github.com/mpavade/animationCounter.js/archive/master.zip) 
