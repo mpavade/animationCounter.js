@@ -52,6 +52,9 @@ or via Bower package manager:<br>
     The text displayed after your counter<br>
     string - default: ''
     
-#License
+   #Demo
+   You can see how it's works on the [demo] page (https://mpavade.github.io/animationCounter.js/demo/) 
+   
+   #License
    Copyright © Micheline Pavadé<br>
    This project is licensed under the MIT License
