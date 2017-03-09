@@ -23,9 +23,21 @@
       "url": "http://www.opensource.org/licenses/mit-license.php"
     }
   ],
-  "homepage": "test",
-  "download": "test",
+  "homepage": "https://mpavade.github.io/animationCounter.js/demo/",
+  "download": "https://github.com/mpavade/animationCounter.js/archive/master.zip",
   "dependencies": {
     "jquery": ">=1.7.0"
-  }
+  },
+  "main": "animationCounter.js",
+  "authors": [
+    "Micheline Pavadé"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "demo"
+  ]
 }
