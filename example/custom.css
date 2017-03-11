@@ -20,7 +20,7 @@ html, body{ font-family: 'Montserrat', sans-serif; color: #7A7A7A; font-size:20p
 
   /* icon */
   .lnr-wrapper{ margin-top: 20px }
-  .lnr-heart, .lnr-code, .lnr-bicycle, .lnr-history { color: #019F9A; font-size: 45px; }
+  .lnr-heart, .lnr-code, .lnr-bicycle, .lnr-coffee-cup { color: #019F9A; font-size: 45px; }
 
 footer{ position: absolute; bottom:10px; text-align: center; font-size: 14px; }
 footer a{ color:#7A7A7A; text-decoration: none; font-weight: bold }
