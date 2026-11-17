@@ -1,7 +1,7 @@
 /* ===========================================================
  * animationCounter.js v.1.0.0
  * ===========================================================
- * Copyright 2017 Micheline Pavadé
+ * Copyright 2017 Pixel Renaissance
  * http://www.pixel-renaissance.com
  * https://github.com/mpavade/
  *
