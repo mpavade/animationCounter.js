@@ -50,5 +50,5 @@ You can see how it's works on the <a href="https://mpavade.github.io/animationCo
 
 # 5. License
 
-Copyright © Micheline Pavadé<br>
+Copyright © Pixel Renaissance<br>
 This project is released under the [MIT License](LICENSE).
