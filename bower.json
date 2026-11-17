@@ -14,7 +14,7 @@
   ],
   "version": "1.0.0",
   "author": {
-    "name": "Micheline Pavadé",
+    "name": "Pixel Renaissance",
     "url": "https://github.com/mpavade"
   },
   "licenses": [
@@ -30,7 +30,7 @@
   },
   "main": "animationCounter.js",
   "authors": [
-    "Micheline Pavadé"
+    "Pixel Renaissance"
   ],
   "license": "MIT",
   "private": true,
